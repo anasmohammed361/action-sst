@@ -1,0 +1,7 @@
+name: 'setup sst'
+description: 'Setup SST for Github Ci'
+inputs: {}
+outputs: {}
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
