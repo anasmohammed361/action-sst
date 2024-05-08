@@ -2,4 +2,6 @@
 
 dpkg -i /sst-linux-amd64.deb 
 
-sst --verbose
+sst 
+
+exit 0
