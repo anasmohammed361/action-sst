@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-dpkg -i /sst-linux-amd64.deb
+curl -fsSL https://ion.sst.dev/install | bash
 
 sst
 
