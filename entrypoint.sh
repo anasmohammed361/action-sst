@@ -1,7 +1,5 @@
 #!/bin/sh -l
 
-curl -fsSL https://ion.sst.dev/install | bash
+dpkg -i /sst-linux-amd64.deb 
 
-sst
-
-exit 0
+sst --verbose
