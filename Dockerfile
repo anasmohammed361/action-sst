@@ -1,7 +1,5 @@
 FROM ubuntu:20.04
-
-RUN apt-get update && apt-get install -y wget
 COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+COPY sst-linux-amd64.deb /sst-linux-amd64.deb
 
 ENTRYPOINT ["/entrypoint.sh"]
