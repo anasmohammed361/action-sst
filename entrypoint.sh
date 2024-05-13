@@ -2,4 +2,4 @@
 COMMAND="$1"
 dpkg -i /sst-linux-amd64.deb 
 
-eval "$COMMAND" >> $GITHUB_OUTPUT
+eval "$COMMAND"
