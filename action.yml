@@ -1,6 +1,10 @@
 name: 'setup sst'
 description: 'Setup SST for Github Ci'
-inputs: {}
+inputs: 
+  command:
+    description: 'Command to run'
+    required: true
+
 outputs: {}
 runs:
   using: 'docker'
